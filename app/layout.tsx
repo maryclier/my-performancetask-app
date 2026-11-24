@@ -26,26 +26,17 @@ export default function RootLayout({
             </h2>
 
             <div className="flex gap-6">
-              <Link
-                href="/"
-                className="hover:text-blue-200"
-              >
-                Home
-              </Link>
+              <Link href="/" className="hover:text-blue-200 transition">
+  Home
+</Link>
 
-              <Link
-                href="/about"
-                className="hover:text-blue-200"
-              >
-                About
-              </Link>
+<Link href="/about" className="hover:text-blue-200 transition">
+  About
+</Link>
 
-              <Link
-                href="/projects"
-                className="hover:text-blue-200"
-              >
-                Projects
-              </Link>
+<Link href="/projects" className="hover:text-blue-200 transition">
+  Projects
+</Link>
             </div>
           </div>
         </nav>
