@@ -7,7 +7,7 @@ export default function Home() {
       <section className="py-16 text-center">
 
         <h1 className="text-4xl font-bold text-blue-600 mb-4">
-          Hello, my name is Your Name!
+         Welcome to My Personal Website!
         </h1>
 
         <p className="text-lg text-gray-700 leading-relaxed mb-6">
